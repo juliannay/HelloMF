@@ -27,6 +27,11 @@
                     <field name="NUM">15</field>
                   </block>
                 </value>
+                <next>
+                  <block type="oled_drawtext" id="70">
+                    <field name="TEXT">Nova</field>
+                  </block>
+                </next>
               </block>
             </next>
           </block>
