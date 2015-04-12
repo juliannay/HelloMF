@@ -16,8 +16,17 @@
           <block type="oled_drawtext" id="35">
             <field name="TEXT">My name is Jade </field>
             <next>
-              <block type="oled_drawtext" id="44">
-                <field name="TEXT">Nova</field>
+              <block type="oled_setcursor" id="53" inline="true">
+                <value name="STARTX">
+                  <block type="math_number" id="61">
+                    <field name="NUM">10</field>
+                  </block>
+                </value>
+                <value name="STARTY">
+                  <block type="math_number" id="60">
+                    <field name="NUM">15</field>
+                  </block>
+                </value>
               </block>
             </next>
           </block>
